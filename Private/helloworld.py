@@ -252,13 +252,14 @@ for index, number in enumerate(reallyLongList):
     print(index, number)
 
 
+
 reallyLongList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
 for number in reallyLongList:
     if number % 2 != 0:
         print(number)  
          
-          
+      
 mixed_list=["1","Linda","0.5"]
 print(mixed_list[:])     
 
@@ -270,4 +271,10 @@ for names in my_list:
       if names != "Svea":     
            print("Jag gillar namnet "+names)
       else:
-           print("Jag gillar inte namnet "+names)       """
+           print("Jag gillar inte namnet "+names)       
+"""
+x = 2
+if x % 2 == 0:
+    print(f'{x} är ett jämnt tal.')
+else:
+    print(f'{x} är ett udda tal.')
